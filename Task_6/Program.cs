@@ -10,9 +10,9 @@ int number = int.Parse(Console.ReadLine()!);
 
 if (number%2 == 0)
 {
-    Console.Write("An even number and divisible by 2" );
+    Console.Write("An even number" );
 }
 else
 {
-    Console.Write("An odd number and not divisible by 2");
+    Console.Write("An odd number");
 }
