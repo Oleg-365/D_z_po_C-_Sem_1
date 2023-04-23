@@ -13,13 +13,11 @@ while (start <= number)
 {
     if (start%2 == 0)
     {
-        Console.Write(start);
-        
+        Console.Write(start + ", ");
     }
     else
     {
-        start += 1;
+    
     }
-    Console.Write(start + ", ");
     start += 1;
 }
